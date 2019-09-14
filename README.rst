@@ -30,7 +30,7 @@ Cookie cutter test
 Features
 --------
 
-* TODO
+* Project template example using Cookicutter.
 
 Credits
 -------
