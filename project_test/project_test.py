@@ -4,6 +4,7 @@
 This module emulates the behaviours and actions of a cat.
 """
 
+
 class Cat(object):
     """A :class:`Cat` is the classiest of classes.
 
@@ -35,4 +36,4 @@ class Cat(object):
         if style == 'cute':
             meow_str += ' ^_^'
 
-        print(meow_str)
+        return meow_str
