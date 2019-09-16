@@ -13,10 +13,12 @@ Project Test
         :target: https://project-test.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/catana-research/project_test/shield.svg
      :target: https://pyup.io/repos/github/catana-research/project_test/
      :alt: Updates
+
+.. image:: https://coveralls.io/repos/github/catana-research/project_test/badge.svg
+    :target: https://coveralls.io/github/catana-research/project_test
 
 
 
