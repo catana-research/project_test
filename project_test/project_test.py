@@ -11,6 +11,7 @@ class Cat(object):
     """
 
     def __init__(self):
+        self.purr_sound = 'PURRRRR'
         pass
 
     def meow(self, volume, duration, style=None):
@@ -29,7 +30,7 @@ class Cat(object):
 
         Note:
             :class:`Cat` needs to meow regularly.
-        """
+        """  # noqa: W605
         meow_str = 'Me' + duration*'o' + 'w'
         if volume > 50:
             meow_str = meow_str.upper()
@@ -37,3 +38,6 @@ class Cat(object):
             meow_str += ' ^_^'
 
         return meow_str
+
+    def purr(self):
+        return self.purr_sound
