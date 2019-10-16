@@ -13,7 +13,8 @@ install:
     - pip install python-coveralls
 
 # Command to run tests, e.g. python setup.py test
-script: tox
+#script: tox
+script: py.test --cov
 
 after_success:
     #- codecov
@@ -28,7 +29,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: catana-research
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: asdasdadsadasd
   on:
     tags: true
     repo: catana-research/project_test
