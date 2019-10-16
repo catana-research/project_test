@@ -11,6 +11,7 @@ python:
 install:
     - pip install -U tox-travis
     - pip install python-coveralls
+    - pip install pytest-cov
 
 # Command to run tests, e.g. python setup.py test
 #script: tox
