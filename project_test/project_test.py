@@ -40,4 +40,5 @@ class Cat(object):
         return meow_str
 
     def purr(self):
+        """ n_{\mathrm{happiness}} = \sum_{k=0}^{N-1} hug_k meow_k                                                              """
         return self.purr_sound
