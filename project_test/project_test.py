@@ -40,4 +40,5 @@ class Cat(object):
         return meow_str
 
     def purr(self):
+        """Purr like a cat"""
         return self.purr_sound
