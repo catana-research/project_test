@@ -10,7 +10,7 @@ Project Test
         :target: https://travis-ci.org/catana-research/project_test
 
 .. image:: https://readthedocs.org/projects/project-test/badge/?version=latest
-        :target: https://project-test.readthedocs.io/en/latest/?badge=latest
+        :target: https://project-test-cat.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/catana-research/project_test/shield.svg
