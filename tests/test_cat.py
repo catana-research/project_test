@@ -1,5 +1,5 @@
 import pytest
-from   project_test.project_test import Cat
+from project_test.project_test import Cat
 
 """Tests for `project_test` package."""
 
@@ -33,4 +33,3 @@ def test_meow(test_input, expected):
     cat = Cat()
     print(*test_input)
     assert cat.meow(*test_input) == expected, 'Cat Meow is of incorrect format'
-
