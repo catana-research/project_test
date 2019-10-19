@@ -33,8 +33,6 @@ import project_test
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode',
-              'IPython.sphinxext.ipython_console_highlighting',
-              'IPython.sphinxext.ipython_directive',
               'sphinx.ext.autosummary',
               'matplotlib.sphinxext.plot_directive',]
 
