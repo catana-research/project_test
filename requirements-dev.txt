@@ -14,3 +14,4 @@ ipython
 sphinx_rtd_theme
 matplotlib
 coveralls
+numpy
