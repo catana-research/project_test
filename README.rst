@@ -3,7 +3,7 @@ Project Test
 ============
 
 
-.. image:: https://img.shields.io/pypi/v/project_test.svg
+.. .. image:: https://img.shields.io/pypi/v/project_test.svg
         :target: https://pypi.python.org/pypi/project_test
 
 .. image:: https://img.shields.io/travis/catana-research/project_test.svg

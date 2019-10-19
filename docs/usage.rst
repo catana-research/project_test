@@ -31,11 +31,14 @@ functions for converting between radians and degrees.
    fig, ax = plt.subplots()
    ax.plot([1, 1, 2, 3, 5, 8])
 
-
-
 .. ipython:: python
 
    1 + 1
+
+.. ipython:: python
+
+    from project_test.apps.snell import snell
+    snell(1, 1, 1)
 
 .. autosummary::
    :toctree: _build/
