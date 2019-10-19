@@ -12,3 +12,5 @@ pytest-runner==5.1
 pytest-cov
 ipython
 sphinx_rtd_theme
+matplotlib
+coveralls
