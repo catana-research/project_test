@@ -1,5 +1,5 @@
 import pytest
-from project_test.project_test import Cat
+from project_test.apps.cat import Cat
 
 """Tests for `project_test` package."""
 
