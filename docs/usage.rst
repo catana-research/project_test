@@ -10,7 +10,7 @@ To use Project Test in a project::
 Scientific libraries conventionally use radians. Numpy provides convenience
 functions for converting between radians and degrees.
 
-.. autofunction:: project_test.snell
+.. autofunction:: project_test.apps.snell
 
 .. code-block:: python
 
@@ -40,4 +40,4 @@ functions for converting between radians and degrees.
 .. autosummary::
    :toctree: _build/
 
-   project_tree.snell
+   project_tree.apps.snell
