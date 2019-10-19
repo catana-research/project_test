@@ -35,8 +35,11 @@ functions for converting between radians and degrees.
 
    1 + 1
 
-.. ipython:: python
-
+.. NOTE: RTD does not allow modules that requires C code to
+   run on their server. Therefore any module, such as numpy,
+   that rely on C code cannot be imported and executed using
+   ipython on RTD servers.
+.. .. ipython:: python
     from project_test.apps.snell import snell
     snell(1, 1, 1)
 
