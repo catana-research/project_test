@@ -38,6 +38,6 @@ functions for converting between radians and degrees.
    1 + 1
 
 .. autosummary::
-   :toctree: generated/
+   :toctree: _build/
 
    project_tree.snell
