@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da37d731-8955-4a8b-9986-3ad163b5c450" name="Default Changelist" comment="Remove files from coverage analysis.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_test.iml" afterDir="false" />
+    <list default="true" id="da37d731-8955-4a8b-9986-3ad163b5c450" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_test/project_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_test/project_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/usage.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/usage.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +18,7 @@
       <list>
         <option value="Python Script" />
         <option value="Catana Module" />
+        <option value="Sphinx doc" />
       </list>
     </option>
   </component>
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571428951917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fix docstring.">
+      <created>1571429403871</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571429403871</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +330,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reduce number of Python environments and add code coverage testing." />
     <MESSAGE value="Add codecov to requirements." />
     <MESSAGE value="Add coveralls to Travis build." />
     <MESSAGE value="Add CoverAlls status to README." />
@@ -351,6 +354,7 @@
     <MESSAGE value="Rename" />
     <MESSAGE value="Add test" />
     <MESSAGE value="Add snells law" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add snells law" />
+    <MESSAGE value="Fix docstring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix docstring." />
   </component>
 </project>
