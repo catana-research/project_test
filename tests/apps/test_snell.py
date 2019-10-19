@@ -1,7 +1,7 @@
 # example/tests/test_examples.py
 import numpy as np
 import pytest
-from project_test.snell import snell
+from project_test.apps.snell import snell
 
 
 @pytest.mark.parametrize('n1, n2', [(2.00, 3.00), (3.00, 2.00),])

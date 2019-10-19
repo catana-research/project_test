@@ -6,4 +6,7 @@ Applications
 Sample applications for the project.
 """
 
-__all__ = []
+from . import cat
+from . import snell
+
+__all__ = ['cat', 'snell']
