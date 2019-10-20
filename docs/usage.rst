@@ -31,14 +31,12 @@ functions for converting between radians and degrees.
    fig, ax = plt.subplots()
    ax.plot([1, 1, 2, 3, 5, 8])
 
-.. ipython:: python
-
-   1 + 1
-
 .. NOTE: RTD does not allow modules that requires C code to
    run on their server. Therefore any module, such as numpy,
    that rely on C code cannot be imported and executed using
    ipython on RTD servers.
+.. .. ipython:: python
+   1 + 1
 .. .. ipython:: python
     from project_test.apps.snell import snell
     snell(1, 1, 1)
