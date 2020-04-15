@@ -34,7 +34,22 @@ import project_test
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode',
               'sphinx.ext.autosummary',
-              'matplotlib.sphinxext.plot_directive',]
+              'autoapi.extension',
+              'matplotlib.sphinxext.plot_directive',
+              'sphinx.ext.napoleon']
+
+
+
+add_function_parentheses = False
+
+autoapi_type = 'python'
+autoapi_dirs = ['../../project_test/project_test',]
+
+autoapi_template_dir = 'source/template_overrides'
+
+autoapi_include_summaries = True
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

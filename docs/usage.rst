@@ -41,7 +41,17 @@ functions for converting between radians and degrees.
     from project_test.apps.snell import snell
     snell(1, 1, 1)
 
-.. autosummary::
-   :toctree: _build/
 
-   project_tree.apps.snell
+.. automodule:: project_test.apps.cat
+    :members:
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+Indices and tables
+==================
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
